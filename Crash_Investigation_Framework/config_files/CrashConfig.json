@@ -1,0 +1,29 @@
+
+{
+    
+    "file_name" : ["Charges","Damages","Endorse","Primary_Person","Restrict","Units"],
+    
+    "Charges":{"file_name" : "Charges_use",
+               "input_path" : "Datasets/Charges_use.csv"},
+    "Damages":{"file_name" : "Damages_use",
+               "input_path" : "Datasets/Damages_use.csv"},
+    "Endorse":{"file_name" : "Endorse_use",
+               "input_path" : "Datasets/Endorse_use.csv"},
+    "Primary_Person":{"file_name" : "Primary_Person_use",
+                      "input_path" : "Datasets/Primary_Person_use.csv"},
+    "Restrict":{"file_name" : "Restrict_use",
+               "input_path" : "Datasets/Restrict_use.csv"},
+    "Units":   {"file_name" : "Units_use",
+               "input_path" : "Datasets/Units_use.csv"},
+    
+    "output_path" : {"Q1" : "output/Q1-male_accident_count_output",
+                     "Q2" : "output/Q2-two_wheeler_count",
+                     "Q3" : "output/Q3-state_with_highest_female_accident",
+                     "Q4" : "output/Q4-top_5th_to_15th_veh_make_id",
+                     "Q5" : "output/Q5-top_ethnic_usr",
+                     "Q6" : "output/Q6-top_5_zip_code_alcohol_crash",
+                     "Q7" : "output/Q7-crash_id_no_damage",
+                     "Q8" : "output/Q8-top_5_veh_makers"}
+    
+ 
+}
